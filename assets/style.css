@@ -1,0 +1,230 @@
+@media only screen and (max-width: 768px) {
+	* {
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+	  }
+	
+	/* Aturan CSS untuk layar dengan lebar maksimum 768px */
+	.container {
+	justify-content: space-between;
+	max-width: 800px;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	}
+	.profile-img {
+	width: 50%;
+	}
+	.social-icons {
+	margin-top: 20px;
+	}
+	
+}
+
+@media only screen and (max-width: 480px) {
+	/* Aturan CSS untuk layar dengan lebar maksimum 480px */
+	.container {
+	text-align: center;
+	}
+	.profile-img {
+	width: 70%;
+	}
+	.profile-name {
+	font-size: 24px;
+	}
+	.profile-desc {
+	font-size: 14px;
+	}
+	.social-icons {
+	margin-top: 20px;
+	}
+	.social-icons a {
+	margin-right: 10px;
+	margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.profile-img {
+	width: 150px;
+	height: 150px;
+	}
+
+	.profile-name {
+	font-size: 28px;
+	}
+
+	.profile-desc {
+	font-size: 16px;
+	}
+
+	.social-icons a {
+	width: 40px;
+	height: 40px;
+	}
+}
+
+		body {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			background-color:#1c1c1c ;
+			color: white;
+			font-family: 'Fira Mono', monospace;
+			text-align: justify;
+			margin: 0 auto;
+			max-width: 800px;
+			padding: 20px;
+		}
+		
+		.container {
+			width: 80%;
+			margin: auto;
+			margin-top: 40px;
+			padding: 20px;
+			position: relative;
+        	text-align: center;
+			
+		}
+		.profile-img {
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			object-fit: cover;
+			margin: 0 auto 20px;
+			display: block;
+			margin-bottom: 20px;
+		}
+		.profile-name {
+			font-size: 36px;
+			font-weight: bold;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		.profile-desc {
+			font-size: 18px;
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		.profile-contact {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 30px;
+		}
+		.contact-icon {
+			width: 50px;
+			height: 50px;
+			margin-right: 10px;
+			fill: white;
+		}
+		.contact-link {
+			color: white;
+			text-decoration: none;
+			font-size: 18px;
+		}
+		.social-icons a {
+			display: inline-block;
+			margin: 0 10px;
+			color: #ffffff;
+			font-size: 2em;
+			transition: transform 0.2s ease-in-out;
+		}
+		.social-icons a {
+			color: #fff;
+			text-decoration: none;
+			transition: all 0.3s ease;
+		}
+		.social-icons a:hover {
+			color: #00bcd4;
+			text-shadow: 0 0 10px #6a00d4;
+		}
+		.link-boxes {
+			margin-top: 30px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		.link-box {
+			background-color: #181818;
+			border: 1px solid transparent;
+			border-radius: 0.5rem;
+			color: #fff;
+			padding: 1.5rem;
+			text-align: left;
+			text-decoration: none;
+			margin-bottom: 1rem;
+			width: 100%;
+			max-width: 400px;
+			transition: all 0.3s ease;
+		}
+		.link-box h2 {
+			font-size: 1.5rem;
+			margin-top: 0;
+			margin-bottom: 1rem;
+		}
+		.link-box p {
+			margin-top: 0;
+			margin-bottom: 1rem;
+		}
+		.link-box:hover {
+			background-color: #ffffff;
+			color: #181818;
+			border-color: #181818;
+			transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+		}
+		.link-box:hover h2, .link-box:hover p {
+			color: #000000;
+		}
+		.link-box:hover a {
+			color: #181818;
+		}
+		.link-box:hover {
+			box-shadow: 0px 0px 10px #6a00d4;
+		}
+		.edit{
+			background-color: #ffffff;
+			color: #000000;
+			font-size: 12px;
+			font-style: italic;
+		}
+		.navbar {
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			padding: 10px;
+		}
+		.navbar a {
+			color: #fff;
+			text-decoration: none;
+			margin-left: 20px;
+		}
+		  /* Link untuk translate ke bahasa Inggris */
+		.translate-link {
+			background-color: #fff;
+			color: #000;
+			padding: 5px 10px;
+			border-radius: 5px;
+			font-weight: bold;
+		}
+		h1 {
+			text-align: left;
+			margin-bottom: 20px;
+			font-size: 45px;
+		}
+		
+		p {
+			margin-bottom: 20px;
+			line-height: 2;
+			font-size: 17px;
+		}
+
+		.desc-about{
+			color: #00FFFF;
+			font-weight: bold;
+		}
+		.flag{
+			width: 20px;
+			height: 20px;
+		}
